@@ -69,7 +69,15 @@ const Home: NextPage = () => {
           </p>
           <p className="mt-5 max-w-prose text-xl text-gray-500">
             This boilerplate is filled with most popular and very convinient instruments. Everything
-            is configured for you.
+            is configured for you.{' '}
+            <a
+              className="text-blue-400 hover:underline"
+              href="https://github.com/RinatGumarov/next-tailwind-boilerplate"
+              rel="noopener nofollow noreferrer"
+              target="_blank"
+            >
+              Source code on GitHub
+            </a>
           </p>
           <div className="mt-12">
             <div className="flex flex-wrap flex-col sm:flex-row gap-8 justify-center items-stretch">

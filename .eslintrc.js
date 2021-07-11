@@ -33,7 +33,7 @@ module.exports = {
     'react/no-danger': 'warn',
     'react/no-find-dom-node': 'warn',
     'react/jsx-no-script-url': 'warn',
-    'react/jsx-no-target-blank': 'warn',
+    'react/jsx-no-target-blank': 'error',
     'react/jsx-props-no-spreading': 'warn',
     // https://github.com/mozilla/eslint-plugin-no-unsanitized
     'no-unsanitized/method': 'error',
