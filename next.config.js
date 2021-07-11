@@ -1,4 +1,3 @@
-// eslint-disable-next-line eslint-comments/disable-enable-pair
 /* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path')
 const fs = require('fs')
@@ -7,6 +6,7 @@ const withImages = require('next-images')
 const ESLintPlugin = require('eslint-webpack-plugin')
 const ESLintConfig = require('./.eslintrc')
 
+// eslint-disable-next-line security/detect-non-literal-fs-filename
 const appDirectory = fs.realpathSync(process.cwd())
 const resolveApp = (relativePath) => path.resolve(appDirectory, relativePath)
 

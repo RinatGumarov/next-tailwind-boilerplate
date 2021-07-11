@@ -4,13 +4,17 @@ module.exports = {
       version: 'detect',
     },
   },
-  plugins: ['security', 'react-security', 'no-unsanitized'],
+  plugins: ['react-security', 'no-unsanitized'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
     'plugin:security/recommended',
+    'plugin:jsx-a11y/strict',
     'plugin:@next/next/recommended',
     'prettier',
   ],
@@ -34,5 +38,8 @@ module.exports = {
     // https://github.com/mozilla/eslint-plugin-no-unsanitized
     'no-unsanitized/method': 'error',
     'no-unsanitized/property': 'error',
+    // next/core-web-vitals
+    '@next/next/no-sync-scripts': 2,
+    '@next/next/no-html-link-for-pages': 2,
   },
 }

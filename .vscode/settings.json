@@ -1,0 +1,15 @@
+{
+  "workbench.editor.enablePreview": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "search.exclude": {
+    "/.next/*": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "editor.quickSuggestions": true,
+  "javascript.validate.enable": false
+}

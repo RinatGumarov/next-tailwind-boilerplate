@@ -1,6 +1,6 @@
 import classNames from 'classnames'
 import {NextPage} from 'next'
-import Head from 'next/head'
+import {NextSeo} from 'next-seo'
 import {
   ESLintIcon,
   NextJsIcon,
@@ -58,11 +58,7 @@ const features = [
 const Home: NextPage = () => {
   return (
     <>
-      <Head>
-        <title>Next app boilerplate</title>
-        <meta content="Configured by Rinat Gumarov" name="description" />
-      </Head>
-
+      <NextSeo title="Main" />
       <div className="flex justify-center relative bg-white py-16 sm:py-24 lg:py-32">
         <div className="max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
           <h2 className="text-base font-semibold font-headind tracking-wider text-indigo-600 uppercase">

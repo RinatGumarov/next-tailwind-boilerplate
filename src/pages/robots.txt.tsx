@@ -14,7 +14,7 @@ const Robots: NextPage = () => {
 }
 Robots.getInitialProps = ({res}) => {
   res?.setHeader('Content-Type', 'text/plain')
-  res?.write(disallowRobots)
+  res?.write(allowRobots)
   res?.end()
   return {}
 }

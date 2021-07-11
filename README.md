@@ -1,16 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js boilerplate with integrated Tailwind CSS and configured ES lint
 
-## Getting Started
+<p align="center">
+  <a href="https://next-tailwind-boilerplate.vercel.app"><img src="public/next-boilerplate-banner.png" alt="Next js boilerplate banner"></a>
+</p>
 
-First, run the development server:
+Use this project as a starting point to create your own. You can check the [demo here](https://next-tailwind-boilerplate.vercel.app).
+This project is also SEO friendly. So it will help you with it.
 
-```bash
+Run the following command on your machine:
+
+```
+git clone --depth=1 https://github.com/rinatgumarov/next-tailwind-boilerplate.git my-project-name
+code my-project-name
+```
+
+### Features
+
+- 🛠 [Next.js](https://nextjs.org) With configured es-linter in development mode
+- 🌎 [TypeScript](https://www.typescriptlang.org)
+- 🎀 [Tailwind CSS](https://tailwindcss.com)
+- ✅ [ESLint](https://eslint.org) - typescript, react, next.js, jsx-a11y, security
+- 🎹 [Prettier](https://prettier.io)
+- 👨‍💼 [Next SEO](https://github.com/garmeeh/next-seo)
+- 🇯🇵 [Next-i18next](https://github.com/isaachinman/next-i18next) configured with Typescript support
+
+### Run it locally
+
+```
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your favorite browser to see your project.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Edit
+
+Change the following:
+
+- icons and manifest in `public/` - I suggest you to use [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
+- fonts in `src/pades/_document_.tsx:8`and in tailwind config `tailwind.config.js`
+- deafaul seo props in `src/utils/seo.ts`
+- robots.txt in `src/pages/robots.txt.tsx`
+
+### Recommended VS Code Extensions
+
+- dbaeumer.vscode-eslint
+- eamodio.gitlens
+- christian-kohler.npm-intellisense
+- christian-kohler.path-intellisense
+- esbenp.prettier-vscode
+- mikestead.dotenv
+- bradlc.vscode-tailwindcss
 
 ## Learn More
 
@@ -19,7 +58,7 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
 
 ## Deploy on Vercel
 
