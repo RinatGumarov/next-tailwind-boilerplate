@@ -91,11 +91,11 @@ const Home: NextPage = () => {
                         )}
                       >
                         <feature.icon
+                          aria-hidden="true"
                           className={classNames(
                             'text-white h-10 w-10',
                             feature.withPadding && 'p-1'
                           )}
-                          aria-hidden="true"
                         />
                       </span>
 

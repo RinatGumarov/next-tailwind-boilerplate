@@ -3,12 +3,12 @@ import {FC, memo, SVGProps} from 'react'
 export const TypescriptIcon: FC<SVGProps<SVGSVGElement>> = memo((props) => {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 256 256"
-      className={props.className}
       aria-hidden={props['aria-hidden']}
+      className={props.className}
+      viewBox="0 0 256 256"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <path fill="#007ACC" d="M0 128v128h256V0H0z" />
+      <path d="M0 128v128h256V0H0z" fill="#007ACC" />
       <path
         d="M56.611 128.85l-.081 10.483h33.32v94.68H113.42v-94.68h33.32v-10.28c0-5.69-.122-10.444-.284-10.566c-.122-.162-20.399-.244-44.983-.203l-44.739.122l-.122 10.443z"
         fill="#FFF"
@@ -24,33 +24,33 @@ export const TypescriptIcon: FC<SVGProps<SVGSVGElement>> = memo((props) => {
 export const ReactIcon: FC<SVGProps<SVGSVGElement>> = memo((props) => {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 3618.6 3618.6"
-      className={props.className}
       aria-hidden={props['aria-hidden']}
+      className={props.className}
+      viewBox="0 0 3618.6 3618.6"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <path fill="#222" d="M0 0h3618.6v3618.6H0z" />
-      <circle cx="1806.5" cy="1807.1" r="302.6" fill="#00d8ff" />
+      <path d="M0 0h3618.6v3618.6H0z" fill="#222" />
+      <circle cx="1806.5" cy="1807.1" fill="#00d8ff" r="302.6" />
       <path
-        fill="none"
-        stroke="#00d8ff"
-        strokeMiterlimit="10"
-        strokeWidth="144.746"
         d="M1806.5 1191.9c406.2 0 783.6 58.3 1068.1 156.2 342.8 118 553.6 296.9 553.6 458.9 0 168.8-223.4 358.9-591.5 480.8-278.3 92.2-644.6 140.4-1030.2 140.4-395.4 0-769.7-45.2-1051.2-141.4-356.1-121.7-570.6-314.2-570.6-479.8 0-160.7 201.3-338.2 539.3-456 285.6-99.5 672.3-159.1 1082.5-159.1z"
-      />
-      <path
         fill="none"
         stroke="#00d8ff"
         strokeMiterlimit="10"
         strokeWidth="144.746"
+      />
+      <path
         d="M1271 1501.3c202.9-351.9 442-649.7 669-847.2 273.5-238 533.8-331.2 674.1-250.3 146.2 84.3 199.3 372.8 121 752.7-59.2 287.2-200.4 628.5-393.1 962.6-197.5 342.5-423.7 644.2-647.6 840-283.3 247.7-557.3 337.3-700.7 254.6-139.2-80.3-192.4-343.3-125.7-695 56.4-297.4 198-662.1 403-1017.4z"
-      />
-      <path
         fill="none"
         stroke="#00d8ff"
         strokeMiterlimit="10"
         strokeWidth="144.746"
+      />
+      <path
         d="M1271.5 2119.8c-203.5-351.6-342.1-707.4-399.9-1002.7-69.6-355.8-20.4-627.9 119.8-709 146.1-84.6 422.5 13.5 712.5 271 219.3 194.7 444.4 487.5 637.6 821.3 198.1 342.2 346.6 688.8 404.3 980.5 73.1 369.2 13.9 651.3-129.4 734.2-139.1 80.5-393.5-4.7-664.9-238.2-229.2-197.3-474.5-502.1-680-857.1z"
+        fill="none"
+        stroke="#00d8ff"
+        strokeMiterlimit="10"
+        strokeWidth="144.746"
       />
     </svg>
   )
@@ -59,10 +59,10 @@ export const ReactIcon: FC<SVGProps<SVGSVGElement>> = memo((props) => {
 export const TailwindIcon: FC<SVGProps<SVGSVGElement>> = memo((props) => {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 51 31"
-      className={props.className}
       aria-hidden={props['aria-hidden']}
+      className={props.className}
+      viewBox="0 0 51 31"
+      xmlns="http://www.w3.org/2000/svg"
     >
       <path
         d="M25.517 0C18.712 0 14.46 3.382 12.758 10.146c2.552-3.382 5.529-4.65 8.931-3.805 1.941.482 3.329 1.882 4.864 3.432 2.502 2.524 5.398 5.445 11.722 5.445 6.804 0 11.057-3.382 12.758-10.145-2.551 3.382-5.528 4.65-8.93 3.804-1.942-.482-3.33-1.882-4.865-3.431C34.736 2.92 31.841 0 25.517 0zM12.758 15.218C5.954 15.218 1.701 18.6 0 25.364c2.552-3.382 5.529-4.65 8.93-3.805 1.942.482 3.33 1.882 4.865 3.432 2.502 2.524 5.397 5.445 11.722 5.445 6.804 0 11.057-3.381 12.758-10.145-2.552 3.382-5.529 4.65-8.931 3.805-1.941-.483-3.329-1.883-4.864-3.432-2.502-2.524-5.398-5.446-11.722-5.446z"
@@ -74,10 +74,10 @@ export const TailwindIcon: FC<SVGProps<SVGSVGElement>> = memo((props) => {
 export const NextJsIcon: FC<SVGProps<SVGSVGElement>> = memo((props) => {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 148 90"
-      className={props.className}
       aria-hidden={props['aria-hidden']}
+      className={props.className}
+      viewBox="0 0 148 90"
+      xmlns="http://www.w3.org/2000/svg"
     >
       <path
         d="M34.992 23.495h27.855v2.219H37.546v16.699h23.792v2.219H37.546v18.334h25.591v2.219H34.992v-41.69zm30.35 0h2.96l13.115 18.334 13.405-18.334L113.055.207 83.1 43.756l15.436 21.429H95.46L81.417 45.683 67.316 65.185h-3.018L79.85 43.756 65.343 23.495zm34.297 2.219v-2.219h31.742v2.219h-14.623v39.47h-2.554v-39.47H99.64zM.145 23.495h3.192l44.011 66.003L29.16 65.185 2.814 26.648l-.116 38.537H.145v-41.69zm130.98 38.801c-.523 0-.914-.405-.914-.928 0-.524.391-.929.913-.929.528 0 .913.405.913.929 0 .523-.385.928-.913.928zm2.508-2.443H135c.019.742.56 1.24 1.354 1.24.888 0 1.391-.535 1.391-1.539v-6.356h1.391v6.362c0 1.808-1.043 2.849-2.77 2.849-1.62 0-2.732-1.01-2.732-2.556zm7.322-.08h1.379c.118.853.95 1.395 2.149 1.395 1.117 0 1.937-.58 1.937-1.377 0-.685-.521-1.097-1.708-1.377l-1.155-.28c-1.62-.38-2.36-1.166-2.36-2.487 0-1.602 1.304-2.668 3.26-2.668 1.82 0 3.15 1.066 3.23 2.58h-1.354c-.13-.828-.85-1.346-1.894-1.346-1.1 0-1.832.53-1.832 1.34 0 .642.472 1.01 1.64 1.284l.987.243c1.838.43 2.596 1.178 2.596 2.53 0 1.72-1.33 2.799-3.453 2.799-1.987 0-3.323-1.029-3.422-2.637z"
@@ -90,19 +90,19 @@ export const NextJsIcon: FC<SVGProps<SVGSVGElement>> = memo((props) => {
 export const ESLintIcon: FC<SVGProps<SVGSVGElement>> = memo((props) => {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 294.825 258.982"
-      className={props.className}
       aria-hidden={props['aria-hidden']}
+      className={props.className}
+      viewBox="0 0 294.825 258.982"
+      xmlns="http://www.w3.org/2000/svg"
     >
       <g>
         <path
-          fill="#8080F2"
           d="M97.021,99.016l48.432-27.962c1.212-0.7,2.706-0.7,3.918,0l48.433,27.962   c1.211,0.7,1.959,1.993,1.959,3.393v55.924c0,1.399-0.748,2.693-1.959,3.394l-48.433,27.962c-1.212,0.7-2.706,0.7-3.918,0   l-48.432-27.962c-1.212-0.7-1.959-1.994-1.959-3.394v-55.924C95.063,101.009,95.81,99.716,97.021,99.016"
+          fill="#8080F2"
         />
         <path
-          fill="#4B32C3"
           d="M273.336,124.488L215.469,23.816c-2.102-3.64-5.985-6.325-10.188-6.325H89.545   c-4.204,0-8.088,2.685-10.19,6.325l-57.867,100.45c-2.102,3.641-2.102,8.236,0,11.877l57.867,99.847   c2.102,3.64,5.986,5.501,10.19,5.501h115.735c4.203,0,8.087-1.805,10.188-5.446l57.867-100.01   C275.439,132.396,275.439,128.128,273.336,124.488 M225.419,172.898c0,1.48-0.891,2.849-2.174,3.59l-73.71,42.527   c-1.282,0.74-2.888,0.74-4.17,0l-73.767-42.527c-1.282-0.741-2.179-2.109-2.179-3.59V87.843c0-1.481,0.884-2.849,2.167-3.59   l73.707-42.527c1.282-0.741,2.886-0.741,4.168,0l73.772,42.527c1.283,0.741,2.186,2.109,2.186,3.59V172.898z"
+          fill="#4B32C3"
         />
       </g>
     </svg>
@@ -112,12 +112,12 @@ export const ESLintIcon: FC<SVGProps<SVGSVGElement>> = memo((props) => {
 export const NPMIcon: FC<SVGProps<SVGSVGElement>> = memo((props) => {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 27.23 27.23"
-      className={props.className}
       aria-hidden={props['aria-hidden']}
+      className={props.className}
+      viewBox="0 0 27.23 27.23"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <path fill="#bb261a" d="M0 0h27.23v27.23H0z" />
+      <path d="M0 0h27.23v27.23H0z" fill="#bb261a" />
       <polygon
         fill="#fff"
         points="5.8 21.75 13.66 21.75 13.67 9.98 17.59 9.98 17.58 21.76 21.51 21.76 21.52 6.06 5.82 6.04 5.8 21.75"
